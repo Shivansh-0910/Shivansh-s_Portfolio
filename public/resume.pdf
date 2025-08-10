@@ -1,0 +1,151 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1200
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(Shivansh Singh) Tj
+0 -30 Td
+/F1 12 Tf
+(Full-Stack Developer & Software Engineer) Tj
+0 -20 Td
+(Email: shivanshs932@gmail.com) Tj
+0 -15 Td
+(Phone: +91 9368554228) Tj
+0 -15 Td
+(GitHub: https://github.com/Shivansh-0910) Tj
+0 -15 Td
+(LinkedIn: https://www.linkedin.com/in/shivansh-singh-2576772b1/) Tj
+
+0 -40 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F1 12 Tf
+(ABES Engineering College, Ghaziabad) Tj
+0 -15 Td
+(B.Tech in Computer Science | Nov 2022 - July 2026) Tj
+0 -15 Td
+(GPA: 8.1/10.0) Tj
+0 -15 Td
+(Coursework: Computer Science, DSA, OS, Compiler Design, Computer Networking) Tj
+
+0 -25 Td
+(St.Thomas Sr. Sec. School, Mainpuri) Tj
+0 -15 Td
+(Senior Secondary \(ISC Board\): 82/100) Tj
+0 -15 Td
+(Secondary \(ICSE Board\): 92/100) Tj
+
+0 -40 Td
+/F1 16 Tf
+(TECHNICAL SKILLS) Tj
+0 -25 Td
+/F1 12 Tf
+(Languages: Java, JavaScript, HTML/CSS) Tj
+0 -15 Td
+(Frameworks: Spring Boot, React.js, Bootstrap, Tailwind CSS) Tj
+0 -15 Td
+(Databases: MySQL, PostgreSQL, MongoDB) Tj
+0 -15 Td
+(Tools: Git, Maven, Postman, VS Code) Tj
+
+0 -40 Td
+/F1 16 Tf
+(PROJECTS) Tj
+0 -25 Td
+/F1 12 Tf
+(ShopEase E-Commerce Platform) Tj
+0 -15 Td
+(• Full-stack e-commerce application with Spring Boot and React) Tj
+0 -15 Td
+(• Features: User authentication, product catalog, shopping cart) Tj
+
+0 -20 Td
+(SilverLink Banking App) Tj
+0 -15 Td
+(• Comprehensive banking application with secure transactions) Tj
+0 -15 Td
+(• Real-time balance updates and account management) Tj
+
+0 -20 Td
+(Hospital Management System) Tj
+0 -15 Td
+(• Complete hospital management with patient records) Tj
+0 -15 Td
+(• Appointment scheduling and billing system) Tj
+
+0 -40 Td
+/F1 16 Tf
+(ACHIEVEMENTS) Tj
+0 -25 Td
+/F1 12 Tf
+(• Solved 750+ DSA problems across LeetCode and TUF+) Tj
+0 -15 Td
+(• HackerRank 5-Star Gold Badge in Problem Solving) Tj
+0 -15 Td
+(• LeetCode: 1700+ rating - 300+ problems solved) Tj
+0 -15 Td
+(• Finalist - HackData 2024, Shiv Nadar University) Tj
+0 -15 Td
+(• Participant - HackVerse \(by GeeksforGeeks\)) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000001526 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1625
+%%EOF
