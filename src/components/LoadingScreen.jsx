@@ -31,8 +31,8 @@ const LoadingScreen = ({ onLoadingComplete }) => {
             setIsVisible(false);
             setTimeout(() => {
               onLoadingComplete();
-            }, 500);
-          }, 800);
+            }, 250);
+          }, 400);
         }
         
         return newProgress;

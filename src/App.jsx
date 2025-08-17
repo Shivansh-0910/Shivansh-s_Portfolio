@@ -28,7 +28,7 @@ function App() {
         // If loading hasn't completed naturally, force completion after 4 seconds
         handleLoadingComplete();
       }
-    }, 4000);
+    }, 2000);
 
     return () => clearTimeout(minLoadingTime);
   }, [showContent]);
