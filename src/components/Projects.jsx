@@ -212,14 +212,16 @@ const Projects = () => {
                   >
                     <Github size={18} className="group-hover/btn:scale-110 transition-transform duration-200" />
                   </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-12 h-12 glass-premium rounded-2xl flex items-center justify-center text-white hover:bg-white/20 transition-all duration-300 magnetic shadow-premium group/btn"
-                  >
-                    <ExternalLink size={18} className="group-hover/btn:scale-110 transition-transform duration-200" />
-                  </a>
+                  {project.liveUrl !== project.githubUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-12 h-12 glass-premium rounded-2xl flex items-center justify-center text-white hover:bg-white/20 transition-all duration-300 magnetic shadow-premium group/btn"
+                    >
+                      <ExternalLink size={18} className="group-hover/btn:scale-110 transition-transform duration-200" />
+                    </a>
+                  )}
                 </div>
 
                 {/* Enhanced Rating & Status */}
@@ -318,15 +320,17 @@ const Projects = () => {
                       <Github size={16} className="group-hover/link:animate-pulse" />
                       Code
                     </a>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sky-400 hover:text-sky-300 transition-colors duration-200 font-semibold group/link text-sm"
-                    >
-                      <ExternalLink size={16} className="group-hover/link:animate-pulse" />
-                      Live Demo
-                    </a>
+                    {project.liveUrl !== project.githubUrl && (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sky-400 hover:text-sky-300 transition-colors duration-200 font-semibold group/link text-sm"
+                      >
+                        <ExternalLink size={16} className="group-hover/link:animate-pulse" />
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                   
                   <button
@@ -449,15 +453,17 @@ const Projects = () => {
                         <Github size={18} className="group-hover:animate-pulse" />
                         View Code
                       </a>
-                      <a
-                        href={selectedProject.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 btn-premium text-white px-6 py-3 rounded-2xl font-semibold text-center flex items-center justify-center gap-2 group"
-                      >
-                        <ExternalLink size={18} className="group-hover:animate-bounce-gentle" />
-                        Live Demo
-                      </a>
+                      {selectedProject.liveUrl !== selectedProject.githubUrl && (
+                        <a
+                          href={selectedProject.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1 btn-premium text-white px-6 py-3 rounded-2xl font-semibold text-center flex items-center justify-center gap-2 group"
+                        >
+                          <ExternalLink size={18} className="group-hover:animate-bounce-gentle" />
+                          Live Demo
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
